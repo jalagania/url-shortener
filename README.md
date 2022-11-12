@@ -7,6 +7,6 @@
 ### Built with
 
 - HTML5
-- CSS (Flexbox, CSS custom properties)
+- CSS (Flexbox)
 - REACT
 - API
