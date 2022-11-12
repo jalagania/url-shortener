@@ -1,0 +1,142 @@
+.url-shortening {
+  max-width: 105rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 100;
+}
+
+.link-shortening-box {
+  background-image: url(../images/bg-shorten-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3054;
+  padding: 5rem 6rem;
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.input-link,
+.btn-shorten {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1.5rem 4rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+}
+
+.input-link {
+  color: #232127;
+  background-color: white;
+  flex-grow: 1;
+}
+
+.input-link::-moz-placeholder {
+  color: #9e9aa7;
+}
+
+.input-link:-ms-input-placeholder {
+  color: #9e9aa7;
+}
+
+.input-link::placeholder {
+  color: #9e9aa7;
+}
+
+.input-link:focus {
+  outline: 2px solid #2acfcf;
+}
+
+.red-outline {
+  outline: 2px solid #f46262;
+}
+
+.btn-shorten {
+  font-weight: 700;
+  color: white;
+  background-color: #2acfcf;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-shorten:active {
+  transform: scale(0.96);
+}
+
+.btn-shorten:hover {
+  background-color: #7be4e4;
+}
+
+.warning {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #f46262;
+  position: absolute;
+  top: 75%;
+  left: 9%;
+}
+
+@media (max-width: 48em) {
+  .link-shortening-box {
+    padding: 3rem;
+  }
+
+  .input-link,
+  .btn-shorten {
+    padding: 1.5rem 3rem;
+  }
+
+  .url-display {
+    padding: 1.5rem 2rem;
+    gap: 2rem;
+  }
+
+  .url-short {
+    width: 19%;
+  }
+
+  .btn-copy {
+    width: 12%;
+  }
+}
+
+@media (max-width: 26.57em) {
+  .link-shortening-box {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .warning {
+    top: 46%;
+    left: 13%;
+  }
+
+  .url-display-box {
+    padding-top: 14rem;
+    gap: 2rem;
+  }
+
+  .url-display {
+    display: block;
+  }
+
+  .url {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .url-short {
+    width: 100%;
+    border-top: 1px solid #bfbfbf;
+    margin: 0;
+    padding: 1rem 0;
+  }
+
+  .btn-copy {
+    width: 100%;
+    font-size: 1.6rem;
+    height: 4rem;
+  }
+}

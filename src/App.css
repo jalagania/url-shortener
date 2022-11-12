@@ -1,0 +1,53 @@
+main {
+  background-image: url(./images/illustration-working.svg);
+  background-repeat: no-repeat;
+  background-position: top 0% right -20%;
+}
+
+.cta {
+  background-image: url(./images/bg-boost-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3b3054;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.title-boost {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #232127;
+  padding-top: 7rem;
+}
+
+@media (max-width: 64em) {
+  main {
+    background-position: top 0% right -40%;
+    background-size: 65%;
+  }
+}
+
+@media (max-width: 48em) {
+  main {
+    background-position: top 0% center;
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 26.57em) {
+  main {
+    background-position: top 0% right 120%;
+    background-size: 120%;
+  }
+
+  footer .logo {
+    align-self: center;
+  }
+}
+
+.visible {
+  display: block;
+}

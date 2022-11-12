@@ -1,0 +1,28 @@
+.attribution {
+  text-align: center;
+  color: #9e9aa7;
+  margin-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+  color: #2acfcf;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 26.57em) {
+  .attribution {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 23.44em) {
+  .attribution {
+    font-size: 1.3rem;
+  }
+}

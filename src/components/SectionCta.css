@@ -1,0 +1,71 @@
+.cta-intro {
+  max-width: 105rem;
+  padding: 8rem 2rem 0 2rem;
+  margin: 0 auto 15rem auto;
+}
+
+.cta-box {
+  max-width: 55rem;
+}
+
+h1 {
+  font-size: 7.5rem;
+  line-height: 1.2;
+  letter-spacing: -3px;
+}
+
+.cta-text {
+  font-size: 2rem;
+  color: #9e9aa7;
+  margin-bottom: 5rem;
+}
+
+.btn-cta {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  background-color: #2acfcf;
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 5rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.btn-cta:hover {
+  background-color: #7be4e4;
+}
+
+@media (max-width: 48em) {
+  .cta-intro {
+    padding-top: 50rem;
+  }
+
+  .cta-box {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 26.57em) {
+  .cta-intro {
+    margin-bottom: 10rem;
+  }
+
+  .cta-box {
+    max-width: 42rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+    letter-spacing: -1px;
+    margin-bottom: 1.5rem;
+  }
+  .cta-text {
+    font-size: 2.2rem;
+  }
+}
